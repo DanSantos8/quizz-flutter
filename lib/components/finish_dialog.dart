@@ -41,7 +41,7 @@ class FinishDialog {
               ),
               const SizedBox(height: 8),
               Text(
-                'Você acertou $hitNumber de 10!',
+                'Você acertou $hitNumber de 20!',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
@@ -60,7 +60,7 @@ class FinishDialog {
             FlatButton(
               child: const Text('COMPARTILHAR'),
               onPressed: () {
-                Share.share('Quiz COVID-29. Você acertou $hitNumber de 10!');
+                Share.share('Quiz MATEMÁTICA. Você acertou $hitNumber de 20!');
               },
             ),
             FlatButton(

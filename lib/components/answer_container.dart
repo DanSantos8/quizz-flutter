@@ -19,7 +19,7 @@ class QuizAnswer extends StatelessWidget {
         child: GestureDetector(
           child: Container(
             padding: EdgeInsets.all(4.0),
-            color: Colors.blue,
+            color: Colors.redAccent,
             child: Center(
               child: AutoSizeText(
                 answer,

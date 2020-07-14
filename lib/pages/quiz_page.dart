@@ -39,7 +39,7 @@ class _QuizPageState extends State<QuizPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.grey.shade900,
-        title: Text('QUIZ POKEMON ( ${_scoreKeeper.length}/20 )'),
+        title: Text('QUIZ MATEMÁTICA ( ${_scoreKeeper.length}/20 )'),
         centerTitle: true,
         elevation: 0.0,
       ),
