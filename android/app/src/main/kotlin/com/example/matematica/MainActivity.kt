@@ -1,4 +1,4 @@
-package com.example.quiz_covid19
+package com.example.matematica
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
